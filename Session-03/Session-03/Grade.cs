@@ -21,7 +21,10 @@ namespace Session_03
             ID = Guid.NewGuid();
         }
 
-        public Grade(Guid studentID) => StudentID = studentID;
+        public Grade(Guid studentID)
+        {
+            StudentID = studentID;
+        }
     }
 
 
