@@ -19,7 +19,7 @@ namespace Session_03
         {
 
             Students = new Student[30];
-            Courses = new Course[5];
+            Courses = new Course[20];
             ScheduledCourses = new Schedule[60];
         }
         public Student[] GetStudents()
