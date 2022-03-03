@@ -9,8 +9,8 @@ namespace Session_03
     public class Course
     {
         public Guid ID { get; }
-        public string code;
-        public string subject;
+        public string code { get; set; }
+        public string subject { get; set; }
 
         public Course()
         {
