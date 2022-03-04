@@ -21,9 +21,11 @@ Console.WriteLine("The sum is "+ c2.GetSum(n));
 
 Console.WriteLine("the Product is : " + c2.GetProduct(n));
 //3
+
 Console.Write("Please give a number");
 
 Console.Write("Please write a positive number: ");
+string input2 = Console.ReadLine();
 int n2 = Convert.ToInt32(input);
 var primesCalculator = new PrimeCalculator(n2);
 
