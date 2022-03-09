@@ -170,6 +170,11 @@ namespace Project_06
         {
             SaveValueAndOperatorType((int)MathOperations.Power);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 
