@@ -34,7 +34,7 @@ namespace Project_06
             Percentage = 5,
             Sqrt = 6,
             Power = 7
-            
+
 
         }
 
@@ -45,7 +45,7 @@ namespace Project_06
 
         private void DigitBtn_Click(object sender, EventArgs e)
         {
-                      {
+            {
                 Button btn = (Button)sender;
                 if (DisplayTextBox.Text == "0")
                 {
@@ -65,8 +65,8 @@ namespace Project_06
             {
                 DisplayTextBox.Text += ".";
 
-            }    
-            
+            }
+
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -80,7 +80,7 @@ namespace Project_06
                 DisplayTextBox.Text = DisplayTextBox.Text.Trim('-');
 
             }
-            
+
         }
 
         private void DiversionButton_Click(object sender, EventArgs e)
@@ -97,13 +97,13 @@ namespace Project_06
         {
             SaveValueAndOperatorType((int)MathOperations.Minus);
         }
-       
+
 
         private void MultiplicationButton_Click(object sender, EventArgs e)
         {
             SaveValueAndOperatorType((int)MathOperations.Multiply);
         }
-        
+
 
         private void PercentageButton_Click(object sender, EventArgs e)
         {
@@ -135,13 +135,13 @@ namespace Project_06
                     result = firstNum * secondNum;
                     break;
                 case 5:
-                    result = (firstNum / secondNum) *100;
+                    result = (firstNum / secondNum) * 100;
                     break;
                 case 6:
                     result = Math.Sqrt(firstNum);
                     break;
                 case 7:
-                    result = Math.Pow(firstNum , secondNum);
+                    result = Math.Pow(firstNum, secondNum);
                     break;
             }
             DisplayTextBox.Text = result.ToString();
@@ -175,6 +175,10 @@ namespace Project_06
         {
 
         }
+
+
+
+
     }
-    }
+}
 
